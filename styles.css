@@ -8,3 +8,22 @@
     border: 1px solid;
     border-color: black;
 }
+
+.navbar{
+    padding: 0px;
+    background-color: steelblue !important;
+}
+
+.card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px; 
+    background-color: burlywood;
+}
+.btn{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px; 
+    width: auto;
+    height: auto;
+}
