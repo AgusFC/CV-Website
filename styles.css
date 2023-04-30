@@ -1,29 +1,90 @@
-.container{
-    background-color: beige;
-    margin: 0px;
+body {
+    background: url("resources/null2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-#carouselExampleIndicators{
+
+.casillaalfa{
+    border-radius: auto;
+    border-style: double;
+    border-color: coral;
+}
+
+#carouselExampleIndicators {
     padding: 0px;
     border: 1px solid;
     border-color: black;
 }
 
-.navbar{
+.navbar {
     padding: 0px;
     background-color: steelblue !important;
 }
 
-.card{
-    margin: 0 auto;
+.cardcv {
+    
+    margin: 2rem auto;
     float: none;
-    margin-bottom: 10px; 
-    background-color: burlywood;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
 }
-.btn{
+
+.btn {
     margin: 0 auto;
     float: none;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     width: auto;
     height: auto;
+}
+
+.card{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    height: 350px;
+    width: 250px;
+    margin-right: 3rem;
+}
+
+.card:hover .gradient{
+    opacity: 1;
+}
+
+.gradient{
+    position: absolute;
+    background-image: linear-gradient(0deg, #e90606, transparent);
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.text{
+    color: rgb(211, 211, 211);
+}
+
+.time{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+}
+
+.title{
+    font-size: 2.2em;
+    font-weight: 700;
 }
