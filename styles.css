@@ -1,3 +1,8 @@
+@font-face {
+    font-family: monospace;
+    src: url(resources/Anonymous.ttf);
+}
+
 body {
     background: url("resources/null2.jpg");
     background-repeat: no-repeat;
@@ -5,7 +10,7 @@ body {
 }
 
 
-.casillaalfa{
+.casillaalfa {
     border-radius: auto;
     border-style: double;
     border-color: coral;
@@ -19,11 +24,26 @@ body {
 
 .navbar {
     padding: 0px;
-    background-color: steelblue !important;
+    background-color: rgba(0, 0, 0, 0.342) !important;
+    font-family: monospace;
+}
+
+.navbar-nav {
+    font-family: monospace;
+    font-size: larger;
+}
+
+.mx-auto {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.nav-item {
+    padding-left: 5rem;
 }
 
 .cardcv {
-    
+
     margin: 2rem auto;
     float: none;
     margin-bottom: 10px;
@@ -43,7 +63,7 @@ body {
     height: auto;
 }
 
-.card{
+.card {
     position: relative;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -52,11 +72,11 @@ body {
     margin-right: 3rem;
 }
 
-.card:hover .gradient{
+.card:hover .gradient {
     opacity: 1;
 }
 
-.gradient{
+.gradient {
     position: absolute;
     background-image: linear-gradient(0deg, #e90606, transparent);
     height: 100%;
@@ -66,7 +86,7 @@ body {
     transition: opacity 0.5s;
 }
 
-.info{
+.info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -74,17 +94,27 @@ body {
     margin-top: 3rem;
 }
 
-.text{
+.text {
     color: rgb(211, 211, 211);
 }
 
-.time{
+.time {
     position: absolute;
     bottom: 0;
     padding: 2rem;
 }
 
-.title{
+.title {
     font-size: 2.2em;
     font-weight: 700;
+}
+
+.centradocards {
+    margin: 10px auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.rowcard{
+    margin-top: 30px;
 }
