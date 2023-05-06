@@ -13,10 +13,11 @@
 </head>
 
 <body>
+
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Agustin Cordoba</a>
+                <a class="navbar-brand">Agustin Cordoba</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,21 +25,25 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <b>Home</a></b>
+                            <a class="nav-link active" aria-current="page" href="#quiensoy">
+                                <b>¿Quien Soy?</a></b>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#conocimientos">
+                                <b>Conocimientos</a></b>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <b>Features</a></b>
+                                <b>Contactame</a></b>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <b>Pricing</a></b>
-                        </li>
-                        <li class="nav-item">
+
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <b>Disabled</a></b>
-                        </li>
+                        </li> -->
+
                     </ul>
                 </div>
             </div>
@@ -84,23 +89,37 @@
         </div>
 
     </header>
-    
+
     <div class="container">
-        <div class="row union">
-            <div class="cardcv col center-block" style="width: 25rem;">
+        <div class="union">
+            <div class="cardcv center-block" style="width: 25rem;" id="quiensoy">
                 <img src="resources/Imagen cv.png" class="card-img-top" alt="CV-Image">
                 <div class="card-body">
                     <h5 class="card-title">Agustin Cordoba</h5>
                     <p class="card-text">Tecnico Electronico, programador, estudiante entusiasta y trabajador proactivo
                     </p>
-                    <a href="#" class="btn btn-primary">B</a>
-                    <button class="btn">
-                        <img src="resources/info-solid.svg" width="10"></button>
-                    <button class="btn">
-                        <img src="resources/linkedin.svg" width="30" /></button>
+
+                    <!-- <a href="#" class="btn btn-primary">B</a> -->
+
+                    
+
+                    <button class="btn btn1">
+                    <a href="https://resumes.indeed.com/search?from=as&q=title%3A(T%C3%A9cnico%20de%20Laboratorio)%20company%3AADT%20anycompany%3AADT&l=San%20Fernando&radius=5">
+                        <img src="resources/info-solid.svg" width="20"></button>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/agustin-cordoba-8bab93180">
+
+                        <button class="btn btn2">
+                            <img src="resources/linkedin.svg" width="50"></button>
+                            
+                    </a>
+
+                    
+
                 </div>
             </div>
-            <div class="accordion col-auto center-block" id="accordionExample">
+            <div class="accordion center-block" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -166,141 +185,153 @@
         </div>
     </div>
 
-    <div class="container">    
-        <div class="row col-md-6 centradocards">
+    <div class="container">
+        <div class="row col-md-12 centradocards">
             <div class="card rowcard">
+                <img src="resources/html5.svg" height="160">
                 <div class="gradient"></div>
                 <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
+                    <div class="title">HTML</div>
+
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
                 </div>
 
-                <div class="time">ASIA <span>09:28 pm</span></div>
-
-            </div>
-            
-            <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #0703fa,transparent);"></div>
-                <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
-                </div>
-
-                <div class="time">ASIA <span>09:28 pm</span></div>
 
             </div>
 
             <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
+                <img src="resources/css3-alt.svg" height="160">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #2965f1,transparent);"></div>
                 <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
+                    <div class="title">CSS</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
                 </div>
 
-                <div class="time">ASIA <span>09:28 pm</span></div>
+
+            </div>
+
+            <div class="card rowcard" id="conocimientos">
+                <img src="resources/bootstrap.svg" height="160">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #563d7c,transparent);"></div>
+                <div class="info">
+                    <div class="title">Bootstrap</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
+                </div>
+
 
             </div>
 
             <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
+                <img src="resources/square-js.svg" height="160">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #e8c012,transparent);"></div>
                 <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
+                    <div class="title">Javascript</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
                 </div>
 
-                <div class="time">ASIA <span>09:28 pm</span></div>
-
-            </div>
-
-
-            <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
-                <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
-                </div>
-
-                <div class="time">ASIA <span>09:28 pm</span></div>
-
-            </div>
-
-            <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
-                <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
-                </div>
-
-                <div class="time">ASIA <span>09:28 pm</span></div>
 
             </div>
 
 
             <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
+                <img src="resources/git-alt.svg" height="160">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #f14e32,transparent);"></div>
                 <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
+                    <div class="title">GIT</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
                 </div>
 
-                <div class="time">ASIA <span>09:28 pm</span></div>
 
             </div>
 
             <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
+                <img src="resources/think-peaks.svg" height="160" class="imagenlogo">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #d2d2fa,transparent);"></div>
                 <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
+                    <div class="title">SCRUM</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
                 </div>
 
-                <div class="time">ASIA <span>09:28 pm</span></div>
-
-            </div>
-
-
-            <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
-                <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
-                </div>
-
-                <div class="time">ASIA <span>09:28 pm</span></div>
-
-            </div>
-
-            <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
-                <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
-                </div>
-
-                <div class="time">ASIA <span>09:28 pm</span></div>
 
             </div>
 
 
             <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
+                <img src="resources/list-check-solid.svg" height="160">
+                <div class="gradient" style="background-image: linear-gradient(180deg,#79ecd1,transparent);"></div>
                 <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
+                    <div class="title">Arquitectura</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
                 </div>
 
-                <div class="time">ASIA <span>09:28 pm</span></div>
 
             </div>
 
             <div class="card rowcard">
-                <div class="gradient" style="background-image: linear-gradient(0deg, #009ece,transparent);"></div>
+                <img src="resources/database-solid.svg" height="140" class="imagenlogo">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #2698ca,transparent);"></div>
                 <div class="info">
-                    <div class="text">/Blood Coders/</div>
-                    <div class="title">EVEREST</div>
+                    <div class="title">Base de datos</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
                 </div>
 
-                <div class="time">ASIA <span>09:28 pm</span></div>
+
+            </div>
+
+
+            <div class="card rowcard">
+                <img src="resources/vuejs.svg" height="160">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #42b883,transparent);"></div>
+                <div class="info">
+                    <div class="title">VUE</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
+                </div>
+
+
+            </div>
+
+            <div class="card rowcard">
+                <img src="resources/java.svg" height="160" class="imagenlogo">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #f89820,transparent);"></div>
+                <div class="info">
+                    <div class="title">Java</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="card rowcard">
+                <img src="resources/network-wired-solid.svg" height="140" class="imagenlogo">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #d7586b,transparent);"></div>
+                <div class="info">
+                    <div class="title">AJAX</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
+                </div>
+
+
+            </div>
+
+            <div class="card rowcard">
+                <img src="resources/gears-solid.svg" height="150" class="imagenlogo">
+                <div class="gradient" style="background-image: linear-gradient(180deg, #0a953a,transparent);"></div>
+                <div class="info">
+                    <div class="title">Spring</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quibusdam.</div>
+
+                </div>
+
 
             </div>
 
@@ -326,7 +357,7 @@
 
 
 
-
+    <a href="#" class="top">^</a>
 
 
 

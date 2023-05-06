@@ -18,7 +18,7 @@ body {
 
 .carousel {
     width: 100vw;
-    height: 20vw;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -64,7 +64,8 @@ body {
 .cardcv {
     /* margin: 2rem auto; */
     float: none;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px auto; */
+    margin-right: 50px;
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.45);
@@ -73,9 +74,29 @@ body {
     backdrop-filter: blur(15px);
 }
 
-/* .cardcv .card-img-top {
-    width: 370px;
+
+/* .cajabotones{
+    justify-content: center;
+    
 } */
+
+.btn1{
+    margin-left: 20% !important; 
+    margin-right: 5% !important;
+   
+}
+
+.btn2{
+
+    margin-left: 20% !important; 
+    margin-right: 5% !important;
+
+}
+
+.container{
+    margin-top: 3vw;
+}
+
 
 .btn {
     margin: 0 auto;
@@ -100,12 +121,19 @@ body {
 
 .gradient {
     position: absolute;
-    background-image: linear-gradient(0deg, #e90606, transparent);
+    background-image: linear-gradient(180deg, #ec6824, transparent);
     height: 100%;
     width: 100%;
     right: 0px;
     opacity: 0;
     transition: opacity 0.5s;
+    z-index: 0;
+}
+
+.centradocards img{
+    z-index: 1;
+
+
 }
 
 .info {
@@ -113,21 +141,21 @@ body {
     top: 50%;
     transform: translateY(-50%);
     padding: 2rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .text {
-    color: rgb(211, 211, 211);
+    color: rgb(29, 28, 28);
 }
 
 .time {
     position: absolute;
     bottom: 0;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .title {
-    font-size: 2.2em;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -141,3 +169,30 @@ body {
 .rowcard {
     margin-top: 30px;
 }
+
+.top {
+
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #00000094;
+    border-radius: 100px;
+    position: fixed; 
+    bottom: 25px; 
+    right: 25px; 
+    z-index: 900;
+
+
+
+    /* place-self: end;
+    position: sticky;
+    margin-top: 100vh;
+    bottom: 10px;
+    margin-left: 190vh; */
+  }
+
+  .imagenlogo{
+
+    margin-top: 5px;
+
+  }
