@@ -196,3 +196,21 @@ body {
     margin-top: 5px;
 
   }
+
+  .casillacorreo {
+
+    background: url(resources/pexels-vedanti-242616.jpg);
+
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+
+  }
+
+
+  .formtext{
+    color: #815F1B;
+  }

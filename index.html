@@ -101,21 +101,22 @@
 
                     <!-- <a href="#" class="btn btn-primary">B</a> -->
 
-                    
+
 
                     <button class="btn btn1">
-                    <a href="https://resumes.indeed.com/search?from=as&q=title%3A(T%C3%A9cnico%20de%20Laboratorio)%20company%3AADT%20anycompany%3AADT&l=San%20Fernando&radius=5">
-                        <img src="resources/info-solid.svg" width="20"></button>
+                        <a
+                            href="https://resumes.indeed.com/search?from=as&q=title%3A(T%C3%A9cnico%20de%20Laboratorio)%20company%3AADT%20anycompany%3AADT&l=San%20Fernando&radius=5">
+                            <img src="resources/info-solid.svg" width="20"></button>
                     </a>
-                    
+
                     <a href="https://www.linkedin.com/in/agustin-cordoba-8bab93180">
 
                         <button class="btn btn2">
                             <img src="resources/linkedin.svg" width="50"></button>
-                            
+
                     </a>
 
-                    
+
 
                 </div>
             </div>
@@ -339,6 +340,54 @@
     </div>
 
 
+    <div class="casillacorreo">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <h1 class="mb-5">Contactame!</h1>
+                    <form action="https://formsubmit.co/tescodigo@gmail.com" method="POST">
+                        <div class="mb-3">
+                            <label class="form-label formtext">Nombre</label>
+                            <input name="name" type="text" class="form-control" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label ">Correo</label>
+                            <input name="email" type="email" class="form-control" required />
+                            <div id="emailHelp" class="form-text">
+                                No te preocupes, estará asegurado ;D
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Telefono (opcional)</label>
+                            <input name="phone" \type="tel" class="form-control" />
+                            <div id="phoneHelp" class="form-text">
+                                Si preferis hablar personalmente.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Tu mensaje</label>
+                            <textarea name="message" class="form-control" rows="3" required></textarea>
+                        </div>
+
+                        <button onclick="mostrar()" type="submit" class="btn btn-primary">Contactar</button>
+                    </form>
+                </div>
+
+                <div class="col-1"></div>
+
+                <div class="col-6 position-relative">
+                    <img src="mail.svg" class="w-75 position-absolute top-50 start-50 translate-middle" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 
 
 
@@ -364,6 +413,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 
 </html>
